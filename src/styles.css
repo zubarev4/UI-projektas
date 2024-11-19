@@ -194,7 +194,7 @@ header nav .nav-link:hover {
 
 /* Footer Section */
 footer {
-    background-color: #f9eae1;
+    background-color: #9c6644;
     padding: 2rem 0;
     text-align: center;
 }
@@ -220,7 +220,7 @@ footer .text-muted {
 }
 
 .contact-container {
-    background-color: #f9eae1;
+    background-color: #aa998f;
     padding: 1.5rem 0;
     display: flex;
     flex-direction: column;
