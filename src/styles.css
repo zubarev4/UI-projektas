@@ -5,7 +5,7 @@
 body {
     font-family: 'Afacad', sans-serif;
     background-color: #729B79;  
-    color: #333;
+    color: #f9eae1;
 }
 
 header {
@@ -16,13 +16,13 @@ header {
 header .logo h1 {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: #f9eae1;
 }
 
 header nav .nav-link {
     font-weight: 600;
     font-size: 1.5rem;
-    color: #333;
+    color: #f9eae1;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -80,9 +80,49 @@ header nav .nav-link:hover {
     font-size: 1.25rem;
 }
 
+#announcement {
+    background-color: #db7c26; /* The same background color as shown in the image */
+    padding: 3rem 0;
+}
+
+#announcement h2 {
+    color: #2e2e2e; /* Dark color for the text */
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+#announcement p {
+    color: #2e2e2e; /* Dark color for the paragraph text */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#announcement a.btn {
+    background-color: #004400; /* Dark green for the button */
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#announcement a.btn:hover {
+    background-color: #003300; /* Darker green for hover effect */
+}
+
+
+
+#produktai h1 {
+    text-align: center; /* Centers the text horizontally */
+    color: #f8f9fa; /* Light color for the text */
+    font-weight: bold; /* Ensures the text is bold */
+    font-size: 2.5rem; /* Adjusts the size to be suitable for a main heading */
+    margin-bottom: 2rem; /* Adds some spacing below the heading */
+}
+
 /* Services Section */
 .services {
-    background-color: #848370;
+
     padding: 2rem 0;
 }
 
@@ -113,7 +153,7 @@ header nav .nav-link:hover {
 .service-cards .btn-link {
     font-weight: bold;
     text-decoration: none;
-    color: #0066cc;
+    color: #7d4f50;
     transition: color 0.3s ease;
     position: absolute;
     bottom: 20px;
@@ -124,10 +164,38 @@ header nav .nav-link:hover {
     color: #004499;
 }
 
+#why-choose-us {
+    background-color: #788d4b; /* Background color similar to the image provided */
+    padding: 4rem 0; /* Top and bottom padding for spacing */
+}
+
+#why-choose-us h2 {
+    color: #ffffff; /* Light color for the heading */
+    margin-bottom: 3rem; /* Space below the heading */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+#why-choose-us .col-md-3 h3 {
+    color: #264d00; /* Dark green color for the numbers */
+    font-weight: bold;
+}
+
+#why-choose-us .col-md-3 p {
+    color: #ffffff; /* Light color for the text */
+    font-size: 1.2rem; /* Slightly larger font size for readability */
+}
+
+#why-choose-us .col-md-3 hr {
+    border: 1px solid #c9b867; /* Light golden border for the line */
+    width: 50%; /* Make the line half the width of the container */
+    margin: 0.5rem auto; /* Center the line */
+}
+
+
 /* Footer Section */
 footer {
-    background-color: #71677C;
-    padding: 1.5rem 0;
+    background-color: #f9eae1;
+    padding: 2rem 0;
     text-align: center;
 }
 
@@ -152,7 +220,7 @@ footer .text-muted {
 }
 
 .contact-container {
-    background-color: #B2B891;
+    background-color: #f9eae1;
     padding: 1.5rem 0;
     display: flex;
     flex-direction: column;
