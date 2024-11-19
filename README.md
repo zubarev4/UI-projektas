@@ -1,1 +1,1 @@
-# UI-projektas
+# This project is a responsive website showcasing various music lessons, including guitar, piano, and vocal training. The site is built using HTML, CSS, Bootstrap, and Tailwind, featuring intuitive navigation, detailed descriptions of services, and a gallery section. It aims to help aspiring musicians find the right courses to learn or improve their musical skills.
