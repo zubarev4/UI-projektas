@@ -1,0 +1,284 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Afacad', sans-serif;
+    background-color: #729B79;  
+    color: #333;
+}
+
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+header nav .nav-link {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav .nav-link:hover {
+    color: #000;
+}
+
+@media (max-width: 576px) {
+    header .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    header nav .nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.7);
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    
+    padding-bottom: 0.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+/* Services Section */
+.services {
+    background-color: #848370;
+    padding: 2rem 0;
+}
+
+.service-cards .card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-cards .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.service-cards .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.service-cards .btn-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s ease;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.service-cards .btn-link:hover {
+    color: #004499;
+}
+
+/* Footer Section */
+footer {
+    background-color: #71677C;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer address {
+    font-style: normal;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #000;
+}
+
+footer .text-muted {
+    color: #777;
+}
+
+.contact-container {
+    background-color: #B2B891;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+#contact {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 0;
+}
+
+
+#contact .company-info {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 100%;
+    height: 80%;
+    padding: 0;/* Adjust the margin as needed */
+    
+}
+
+
+.contact-container button {
+    align-self: flex-end;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-container button:hover {
+    background-color: #555;
+}
+
+@media (max-width: 576px) {
+    #contact {
+        flex-direction: column;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+
+    #contact .company-info {
+        font-size: 1.75rem;
+        padding: 7rem;
+        width: 100%;
+        height: 10%;
+        
+    }
+
+    .contact-container button {
+        align-self: center;
+    }
+
+}
+
+#section2 {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#section2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: brightness(0.7);
+    opacity: 0.68;
+}
+
+#section2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+#text {
+    background-color: #CDCCAC;
+    padding: 2rem;
+    margin-top: 1rem; 
+    max-width: 1000px;
+}
+
+#text-section {
+    background-color: #848370;
+    padding: 2rem 0;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+#images .col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+#images img {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    object-fit: cover;
+    cursor: pointer;
+}
