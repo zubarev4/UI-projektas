@@ -219,57 +219,69 @@ footer .text-muted {
     color: #777;
 }
 
-.contact-container {
-    background-color: #aa998f;
-    padding: 1.5rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
-}
+
+
 
 /* Contact Section */
-#contact {
-    max-width: 800px;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 2rem 0;
-}
 
-
-#contact .company-info {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-    font-size: 1.25rem;
+.contact-form-container {
+    background-color: #163f34;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
     width: 100%;
-    height: 80%;
-    padding: 0;/* Adjust the margin as needed */
-    
 }
 
+.form-group {
+    margin-bottom: 1rem;
+}
 
-.contact-container button {
-    align-self: flex-end;
-    padding: 0.75rem 1.5rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #8b7979;
+}
+
+input, textarea {
+    background-color: #7a6058;
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #5b4141;
     border-radius: 4px;
-    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 1rem;
 }
 
-.contact-container button:hover {
-    background-color: #555;
+textarea {
+    resize: vertical;
 }
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none; /* Hidden by default */
+}
+
+.submit-button {
+    background-color: #729B79;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+
+
 
 @media (max-width: 576px) {
     #contact {
